@@ -1,0 +1,124 @@
+html, body {
+    background-color: rgb(255, 253, 251) ;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, DM Sans;
+}
+
+.top-header {
+    background-color: rgb(141,171,224);
+    text-align: center;
+}
+
+.menu-item {
+    color: #ffffff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration:none;
+    align-self: center;
+    font-family: 'DM Sans';
+    font-size:20px;
+}
+
+.title-header {
+    color: #7895C6;
+    text-align: center;
+}
+
+.orgname {
+    font-family: "DM Serif Display";
+    font-size: 75px;
+    margin-bottom: -10px;
+    margin-top: 18px;
+}
+
+.orgsub {
+    font-family: "DM Sans";
+    font-size:18px;
+    padding-bottom: 15px;
+}
+
+.container {
+    text-align: center;
+    position: relative;
+}
+
+.container img {
+    width:100%;
+    height:auto;
+    filter: blue(100%) hue-rotate(190deg) saturate(400%) opacity(80%);
+}
+
+.centered {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-family: "DM Sans";
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    }
+
+.middle-content {
+    display: flex;
+}
+
+.column-1 {
+    flex: 50%;
+    padding: 20px;
+}
+
+.header-2 {
+    font-family:"DM Sans";
+    color: #7895C6;
+    font-size: 18px;
+}
+
+.n2 {
+    color:#ffffff;
+    font-family:"DM Sans";
+    font-size: 24px;
+    background-color: #7895C6;
+    font-weight: italic;
+    margin-right: 20px;
+    margin-top:10px;
+    margin-left: 10px;
+    text-align:center;
+}
+
+.column-2 {
+    font-family:"DM Sans";
+    color: #7895C6;
+    flex: 33%;
+}
+
+.column-in {
+    display: flex;
+    text-align: center;
+    
+}
+
+.sub-top {
+    font-family: "DM Serif Display";
+    font-size: 50px;
+    margin: -10px;
+}
+
+.sub-bottom {
+    font-family: "DM Sans";
+    font-size: 16px;
+}
+
+.footer {
+    font-family: "DM Sans";
+    font-size: 20px;
+    padding: 20px;
+    color: #7895C6;
+}
+
+.footer-1 {
+    text-align: center;
+    font-weight: mixed;
+}

@@ -1,0 +1,81 @@
+html, body {
+    background-color: rgb(255, 253, 251) ;
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, DM Sans;
+}
+
+.top-header {
+    background-color: rgb(141,171,224);
+    text-align: center;
+}
+
+.menu-item {
+    color: #ffffff;
+    padding: 15px;
+    display: inline-block;
+    text-decoration:none;
+    align-self: center;
+    font-family: 'DM Sans';
+    font-size:20px;
+}
+
+.top-content {
+    margin: auto;
+    width: 50%;
+}
+
+.subheading {
+    color: #7895C6;
+    font-family: 'DM Serif Display';
+    font-size: 50px;
+    padding-left:100px;
+    margin-top: 80px;
+}
+
+.caption {
+    color: #7895C6;
+    font-family: 'DM Sans';
+    padding-left:100px;
+    margin-top:-40px;
+    font-size: 30px;
+}
+
+.link {
+    color: #3D619E;
+    font-family: 'DM Sans';
+    padding-left:100px;
+    text-decoration:underline;
+    font-size:20px;
+    line-height: 200%;
+}
+
+.middle-content {
+    display: flex;
+    padding-left:100px;
+    padding-right:100px;
+    margin-top:-25px;
+}
+
+.column-left {
+    flex: 40%;
+    background-color: #7895C6;
+    color: #ffffff;
+    font-family: "DM Sans";
+    font-size: 20px;
+    text-align: center;
+    height:100px;
+}
+
+.column-right {
+    padding-left:20px;
+    flex: 60%;
+    font-family: "DM Sans";
+    font-size: 20px;
+    line-height: 200%;
+}
+
+.link-1 {
+    text-decoration:underline;
+    color: #3D619E;
+}
